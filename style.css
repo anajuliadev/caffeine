@@ -75,9 +75,6 @@ li a{
     
    
 }
-.pai-pagina1 .texto-maior{
-    width: 50%;
-}
 .pai-pagina1 .texto-maior h1{
     
     color: #ffffff;
@@ -87,4 +84,80 @@ li a{
     font-weight: 700;  
     font-size: 70px;
 
+}
+.page1-info .texto-menor p{
+    color: #ffffff;
+    font-family: 'Lora' , serif;
+}
+.page1-buttom{
+    margin-top: 30px;
+}
+.buttom{
+    font-family: 'Lora' , serif;
+    padding: 10px 15px;
+    font-weight: 400;
+}
+.page1-buttom .buttom.buttom2{
+    margin-left: 20px;
+}
+.buttom.buttom1{
+    background-color: #ffffff;
+    color: #1a1107;
+}
+.buttom.buttom2{
+    background-color: #1a1107;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.buttom.buttom3{
+    background-color: #1a1107;
+    color: #ffffff;
+
+}
+.dados{
+    color: #ffffff;
+    display: flex;
+    font-family: 'Lora' , serif;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.dados-numero{
+    font-weight: 700;
+    font-size:25px;
+    text-align: center;
+    font-family: 'Lora' , serif;
+    margin: 0;
+    
+}
+.dados1{
+    margin-right: 30px;
+}
+.dados-info{
+    font-weight: 400;
+    font-family: 'Lora' , serif;
+    text-align: center;
+    margin: 0;
+    
+    
+}
+
+.page1-img img{
+    height: 100%;
+    object-fit:contain;
+    width: 100%;  
+    max-height: 600px;
+    
+}  
+
+.pai-pagina1{
+    display: flex;
+}
+.page1-info{
+    width: 50%;
+}
+.page1-img{
+    width: 50%;
+    text-align: center;
+    
+    
 }
