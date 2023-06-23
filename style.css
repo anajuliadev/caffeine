@@ -85,6 +85,10 @@ li a{
     font-size: 70px;
 
 }
+.texto-menor p{
+    font-family: 'Lora' , serif;
+}
+
 .page1-info .texto-menor p{
     color: #ffffff;
     font-family: 'Lora' , serif;
@@ -96,7 +100,10 @@ li a{
     font-family: 'Lora' , serif;
     padding: 10px 15px;
     font-weight: 400;
+    box-sizing: border-box;
+
 }
+
 .page1-buttom .buttom.buttom2{
     margin-left: 20px;
 }
@@ -109,11 +116,7 @@ li a{
     border: 1px solid #ffffff;
     color: #ffffff;
 }
-.buttom.buttom3{
-    background-color: #1a1107;
-    color: #ffffff;
 
-}
 .dados{
     color: #ffffff;
     display: flex;
@@ -151,6 +154,7 @@ li a{
 
 .pai-pagina1{
     display: flex;
+    padding-bottom: 50px;
 }
 .page1-info{
     width: 50%;
@@ -161,3 +165,82 @@ li a{
     
     
 }
+.pai-pagina2{
+    background-color: #efdfc4;
+}
+.pai-pagina2 .texto-maior h1{
+    color: #1a1107;
+}
+.pai-pagina2 .texto-menor p{
+    color: #1a1107 ;
+    font-weight: 400; 
+}
+.buttom.buttom3{
+    background-color: #1a1107;
+    color: #ffffff;
+    transition: all 0.3s;
+    border: 2px solid #1a1107 ;
+
+}
+.buttom.buttom3:hover{
+    background-color:#91816e;
+    transition: all 0.3s;
+    color: #1a1107;
+}
+.page2-buttom{
+    margin-top: 50px;
+}
+.caixinha-pag2{
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    
+}
+.caixinha-pag2:last-child{
+    flex-direction: row-reverse;
+    text-align: right;
+}
+.img-pagina2{
+    width: 50%;
+    text-align: center;
+    
+}
+.img-pagina2 img{
+    width: 40%;
+    border-radius: 40px;
+    max-width: 300px;
+    max-height: 500px;
+    
+}
+.agrupe-info{
+
+    width: 50%;
+   
+}
+
+.pai-pagina3{
+    background-color: #ddb288;
+    
+}
+.pai-pagina3 .texto-maior h1{
+    margin: 0;
+    padding-top: 90px;
+    text-align: center;
+    color: #1a1107;
+}
+.pai-pagina3 .texto-menor p{
+    text-align: center;
+    padding-top: 20px;
+    color: #1a1107;
+}
+.opcoes {
+    display: flex;
+    justify-content: center;
+}
+.opcoes-cafe p{
+    padding: 0 50px;
+    font-weight: 800;
+    font-family: 'Lora' , serif;
+    
+}
+
