@@ -241,7 +241,8 @@ li a{
     padding: 0 50px;
     font-weight: 800;
     font-family: 'Lora' , serif; 
-    margin-bottom: 7px;  
+    margin-bottom: 7px;
+      
 }
 .opcoes-cafe hr{
     width: 30px;
@@ -257,16 +258,20 @@ li a{
     border:1px solid #1a1107;
     text-align: center;
     margin-right: 30px;
-    padding: 30px 30px 0 30px  ;
     margin-bottom: 60px;
+    box-shadow: inset 0 137px 0 0px #1a1107;
+}
+.item-opcao{
+    padding: 30px 30px 0 30px;
 }
 .opcoes-pagina3{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 .img-opcoes img{
     width: 200px;
-    border: 7px solid #ddb288;
+    border: 6px solid #ddb288;
     
    
 }
@@ -277,15 +282,67 @@ li a{
     font-size: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
-
 }
-.ordernow p{
+.ordernow a{
     border: 1px solid #1a1107;
     font-size: 26px;
     font-family: 'Lora' , serif;
     background-color: #c7ac8f;
-    padding: 10px 10px ;
+    padding: 10px 0;
+    color: #1a1107;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+.pai-pagina4{
+    background-color: #efdfc4;
+    margin-top:0;
+    padding-bottom: 90px;
     
 }
+.pai-pagina4 .texto-maior h2 {
+    text-align: center;
+    padding-top: 20px;
+    color: #1a1107;
+    font-family: 'Lora' , serif;
+    font-size: 45px;
+    margin: 0;
+    padding-top: 50px;
+}
+.img-cliente{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    overflow: hidden;
+    border: 6px solid #efdfc4;
+}
+.img-cliente img{
+    height: 100%;
+    object-fit:cover;
+    width: 100%;  
+    
+    
+}
+.caixinha-feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1107;
+    color: #efdfc4;
+    padding: 0px 30px 30px 30px;
+    
+}
+.caixinha-depoimento p{
+    font-family: 'Lora' , serif;
+    text-align: center;
+    font-size:23px;
+}
+
+
+
+
+
+
+
+
 
