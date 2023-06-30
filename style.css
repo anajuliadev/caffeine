@@ -353,8 +353,28 @@ li a{
     display: flex;
 }
 
+.page-width{
 
 
+}
+.newslatter{
+    display: flex;
+    background-color: #DDB288;
+}
+.newslatter .texto-maior h2{
+    font-family: 'Lora' ,serif;
+    font-weight: 900;
+    font-size: 40px;
+    
+
+}
+.newslatter .texto-menor p{
+    
+}
+.caixinha-email{
+    background-color: #ffffff;
+    padding: 1px;
+}
 
 
 
