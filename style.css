@@ -351,6 +351,7 @@ li a{
     margin: 0;
     padding-top: 50px;
 }
+
 .img-cliente{
     width: 150px;
     height: 150px;
@@ -363,10 +364,27 @@ li a{
 .img-cliente img{
     height: 100%;
     object-fit:cover;
-    width: 100%;  
+    width: 100%;    
+}
+.pai-feedback .setinha{
     
+    border-radius: 5px;
+    margin-right: 50px;
+    background-color: #DDB288;
+    height: 80px;
+    width: 80px;
     
+}
+.pai-feedback .setinha img{
+    width: 16px;
+    height: 16px;
     
+}
+.pai-feedback{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
 }
 .caixinha-feedback{
     display: flex;
@@ -376,7 +394,7 @@ li a{
     color: #efdfc4;
     padding: 110px 30px 30px 30px;
     position: relative;
-    margin-top: 120px;
+    
 }
 .caixinha-depoimento p{
     font-family: 'Lora' , serif;
