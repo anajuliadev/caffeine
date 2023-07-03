@@ -328,8 +328,15 @@ li a{
 .agrupe-setinha{
     display: flex;
     justify-content: center;
-}
 
+}
+.agrupe-setinha .setinha{
+    background-color: #1a1107;
+    margin-right: 25px;
+}
+.agrupe-setinha .setinha svg{
+    fill: #D9D9D9;
+} 
 .pai-pagina3 .setinha img{
     background-color: #1a1107;
     width: 15px;
@@ -366,26 +373,29 @@ li a{
     object-fit:cover;
     width: 100%;    
 }
-.pai-feedback .setinha{
-    
-    border-radius: 5px;
-    margin-right: 50px;
-    background-color: #DDB288;
-    height: 80px;
-    width: 80px;
-    
-}
-.pai-feedback .setinha img{
-    width: 16px;
-    height: 16px;
-    
-}
 .pai-feedback{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 120px;
 }
+.setinha{
+    border: 1px solid #1a1107;
+    border-radius: 5px;
+    background-color: #DDB288;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setinha svg{
+    width: 16px;
+    height: 16px;
+    fill: #1a1107;
+    
+}
+
 .caixinha-feedback{
     display: flex;
     flex-direction: column;
@@ -394,19 +404,20 @@ li a{
     color: #efdfc4;
     padding: 110px 30px 30px 30px;
     position: relative;
-    
+    width: 75%;
+    border-radius: 5px;
 }
 .caixinha-depoimento p{
-    font-family: 'Lora' , serif;
+    font-family: 'Inter' , sans-serif;
     text-align: center;
     font-size:23px;
     margin-bottom:40px ;
     margin-top: 30px;
 }
 .name p{
-    font-family: 'Lora' , serif;
+    font-family: 'Inter' , sans-serif;
     font-size: 26px;
-    font-weight: 900;
+    font-weight: 700;
     margin: 0;
 }
 .avaliacao img{
