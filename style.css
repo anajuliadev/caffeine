@@ -22,10 +22,13 @@ body{
     margin: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .page-width{
     margin: 0 auto;
     width: 80%;
+}
+p{
+    font-family: 'Inter' , sans-serif;
 }
 .pai-header-pagina1{
     background-color: #1b1107;
@@ -46,7 +49,7 @@ body{
 
 }
 .menu{
-    width: 70%;
+    width: 65%;
 }
 ul {
     margin: 0;
@@ -61,13 +64,32 @@ li {
 li a{
     color: #ffffff;
 }
+.header{
+    text-align: center;
+}
+.lupa-hr{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.lupa-hr hr{
+    height: 40px;
+    
+}
 .login-lupa{
-    width: 15%;
+    width: 20%;
+    display: flex;
+    justify-content: right;
+
+}
+.lupa{
     display: flex;
 }
-.lupa p{
+.lupa img{
     line-height: 70px;
-    margin-left: 30px;
+    margin: 0 30px 0 30px;
+    width: 30px;
+    
 }
 .login a{ 
     color: #ffffff;
@@ -85,63 +107,68 @@ li a{
     font-size: 70px;
 
 }
-.texto-menor p{
-    font-family: 'Lora' , serif;
-}
+
 
 .page1-info .texto-menor p{
     color: #ffffff;
-    font-family: 'Lora' , serif;
 }
 .page1-buttom{
     margin-top: 30px;
 }
 .buttom{
-    font-family: 'Lora' , serif;
-    padding: 10px 15px;
-    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 20px;
+    font-weight: 700;
     box-sizing: border-box;
-
+    border-radius: 5px;
 }
 
 .page1-buttom .buttom.buttom2{
     margin-left: 20px;
 }
 .buttom.buttom1{
-    background-color: #ffffff;
-    color: #1a1107;
+    background-color:#E7D7BC;
+    color: #1F160D;
+
+}
+.buttom.buttom1:hover{
+    background-color:#91816e;
+    transition: all 0.3s;
+    color: #E7D7BC;
 }
 .buttom.buttom2{
     background-color: #1a1107;
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    border: 1px solid#E7D7BC;
+    color: #E7D7BC;
 }
-
+.buttom.buttom2:hover{
+    background-color:#91816e;
+    transition: all 0.3s;
+    color: #1a1107;
+}
 .dados{
     color: #ffffff;
     display: flex;
-    font-family: 'Lora' , serif;
     margin-top: 60px;
     margin-bottom: 20px;
 }
+
 .dados-numero{
-    font-weight: 700;
+    font-weight: 500;
     font-size:25px;
     text-align: center;
     font-family: 'Lora' , serif;
     margin: 0;
-    
 }
 .dados1{
     margin-right: 30px;
 }
 .dados-info{
     font-weight: 400;
-    font-family: 'Lora' , serif;
     text-align: center;
-    margin: 0;
-    
-    
+    margin: 0; 
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .page1-img img{
@@ -167,9 +194,11 @@ li a{
 }
 .pai-pagina2{
     background-color: #efdfc4;
+    padding:60px 0;
 }
 .pai-pagina2 .texto-maior h1{
     color: #1a1107;
+    margin: 0;
 }
 .pai-pagina2 .texto-menor p{
     color: #1a1107 ;
@@ -192,8 +221,8 @@ li a{
 }
 .caixinha-pag2{
     display: flex;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     
 }
 .caixinha-pag2:last-child{
@@ -206,16 +235,17 @@ li a{
     
 }
 .img-pagina2 img{
-    width: 40%;
+    width: 100%;
     border-radius: 40px;
-    max-width: 300px;
-    max-height: 500px;
-    
+    max-width: 350px;
+    max-height: 400px;
+    object-fit: cover;
 }
 .agrupe-info{
-
     width: 50%;
-   
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
 }
 
 .pai-pagina3{
