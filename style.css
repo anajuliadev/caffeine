@@ -468,3 +468,43 @@ li a{
 
 
 
+/*LOGIN*/
+.pai-login{
+    background-color: #1a1107;
+    display:flex;
+    
+}
+.pai-login .img-login{
+    width: 50%;
+    height: 100%;
+    background-image: url("./assets/img-login.png");
+}
+.pai-login .login{
+    width: 50%;
+}
+.login{
+    text-align: center;
+}
+.login h1{
+    font-family: 'Lora' , serif;
+    color: #E7D7BC;
+}
+.info-login{
+    background-color: #E7D7BC;
+    margin: 12% 20%;
+    padding: 30px 70px;
+}
+.info-login p{
+    font-family: 'Inter' , sans-serif;
+    text-align: left;
+    margin-left: 25%;
+}
+.info-login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.email{
+    
+}
+
