@@ -32,12 +32,17 @@ p{
 }
 .pai-header-pagina1{
     background-color: #1b1107;
-
+    height: 100vh;
+    padding-top: 20px;
+}
+.pai-header-pagina1 .page-width{
+    height: 100%;
 }
 .header{
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    border: 1px solid #E7D7BC;
+    border-radius: 8px;
     display: flex;
+    margin-top: 20px;
 }
 .logo{
     width: 15%;
@@ -45,11 +50,22 @@ p{
 .logo h2{
    
     font-family: 'Lora', serif;
-    color: #ffffff;
+    color: #E7D7BC;
 
 }
 .menu{
     width: 65%;
+}
+.menu ul li a{
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: all 0.3s;
+    color: #E7D7BC;
+}
+.menu ul li a:hover , .menu ul li a.active{
+    background-color:#EFDFC4;
+    color: #1a1107;
+    transition: all 0.3s;
 }
 ul {
     margin: 0;
@@ -57,12 +73,12 @@ ul {
 }
 li {
     list-style: none;
-    margin: 15px;
     display: inline;
     line-height: 70px; 
 }
 li a{
-    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
 }
 .header{
     text-align: center;
@@ -74,22 +90,27 @@ li a{
 }
 .lupa-hr hr{
     height: 40px;
-    
+    background-color: #E7D7BC;
+    border:none;
+    width: 1px;
 }
 .login-lupa{
     width: 20%;
     display: flex;
     justify-content: right;
-
+}
+.login-lupa .login a{
+    color: #E7D7BC;
 }
 .lupa{
     display: flex;
+    align-items: center;
 }
-.lupa img{
-    line-height: 70px;
+.lupa svg{
+    
     margin: 0 30px 0 30px;
     width: 30px;
-    
+    paddi
 }
 .login a{ 
     color: #ffffff;
@@ -97,9 +118,22 @@ li a{
     
    
 }
+.pai-pagina1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.page1-info{
+    width: 50%;
+}
+.page1-img{
+    width: 50%;
+    text-align: center;  
+}
 .pai-pagina1 .texto-maior h1{
-    
     color: #ffffff;
+    margin: 0;
 }
 .texto-maior h1{
     font-family: 'Lora' ,serif;
@@ -108,7 +142,9 @@ li a{
 
 }
 
-
+.page1-info{
+    
+}
 .page1-info .texto-menor p{
     color: #ffffff;
 }
@@ -132,7 +168,8 @@ li a{
 
 }
 .buttom.buttom1:hover{
-    background-color:#91816e;
+    background-color:#1a1107;
+    border: 1px solid #E7D7BC;
     transition: all 0.3s;
     color: #E7D7BC;
 }
@@ -142,7 +179,7 @@ li a{
     color: #E7D7BC;
 }
 .buttom.buttom2:hover{
-    background-color:#91816e;
+    background-color:#E7D7BC;
     transition: all 0.3s;
     color: #1a1107;
 }
@@ -179,19 +216,7 @@ li a{
     
 }  
 
-.pai-pagina1{
-    display: flex;
-    padding-bottom: 50px;
-}
-.page1-info{
-    width: 50%;
-}
-.page1-img{
-    width: 50%;
-    text-align: center;
-    
-    
-}
+
 .pai-pagina2{
     background-color: #efdfc4;
     padding:60px 0;
@@ -472,27 +497,32 @@ li a{
 .pai-login{
     background-color: #1a1107;
     display:flex;
-    
+    height: 100vh;
 }
 .pai-login .img-login{
     width: 50%;
     height: 100%;
     background-image: url("./assets/img-login.png");
+    box-shadow: 0px 0px 0px 15px #E7D7BC;
 }
 .pai-login .login{
     width: 50%;
 }
 .login{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .login h1{
     font-family: 'Lora' , serif;
     color: #E7D7BC;
+    font-size: 60px;
 }
 .info-login{
     background-color: #E7D7BC;
-    margin: 12% 20%;
     padding: 30px 70px;
+    border-radius: 5px;
 }
 .info-login p{
     font-family: 'Inter' , sans-serif;
@@ -504,7 +534,30 @@ li a{
     flex-direction: column;
     width: 100%;
 }
-.email{
-    
-}
 
+.caixinha-info{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+label{
+    font-family: 'Inter' , sans-serif;
+    text-align: left;
+    margin: 10px 0;
+}
+.button-agrupe-login{
+    margin-top: 20px;
+}
+.button-agrupe-login .button{
+    background-color: #DDB288;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+.button.button-login {
+    background-color: #1a1107;
+    color: #E7D7BC;
+    padding: 10px 50px;
+}
