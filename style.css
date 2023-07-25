@@ -602,7 +602,7 @@ label{
 
 /*MOBILE*/
 
-@media (max-width:480px){
+@media (max-width:1366px){
     .menu{
         display: none;
     }
@@ -704,8 +704,42 @@ label{
     }
 
 
-    
+    .menu-mobile{
+        background-color: #E7D7BC;
+        width: 100vh;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
 
+    }
+    .menu-mobile .menu{
+        display: block;    
+    }
+    .menu-mobile .menu a, .menu-mobile .login-lupa-mobile a{
+        color: #1a1107;
+        font-size: 25px;
+        padding-left: 15px;
+    }
+   
+    .menu-mobile li{
+        display: block;
+        text-align: left;
+        margin-bottom: 20px ;
+    }
+    .login-lupa-mobile li{
+        border: 1px solid #1a1107;
+        border-radius: 5px;
+    }
+    .menu-mobile .login-lupa-mobile li:last-child{
+        background-color: #1a1107;
+
+    }
+    .menu-mobile .login-lupa-mobile li:last-child a{
+        color: #E7D7BC;
+        
+    }
 }
 
 
