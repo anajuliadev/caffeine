@@ -706,8 +706,8 @@ label{
 
     .menu-mobile{
         background-color: #E7D7BC;
-        width: 100vh;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
         position: fixed;
         top: 0;
         left: 0;
@@ -739,6 +739,42 @@ label{
     .menu-mobile .login-lupa-mobile li:last-child a{
         color: #E7D7BC;
         
+    }
+
+    .menu-mobile .page-width .header {
+        display: flex;
+        border: 2px solid #1a1107;
+        margin-top: 30px;
+        
+    }
+    .menu-mobile .page-width .logo h2{
+        color: #1a1107;
+        
+    }
+    .menu-mobile .page-width .icone-x {
+        margin-left: auto;
+        padding-right: 40px;
+    }
+    .login-lupa-mobile li {
+        display:flex;
+        
+    }
+    .icone-lupa{
+        margin-left: auto;
+        padding-right: 30px;
+        display: flex;
+        align-items: center;
+    }
+    .icone-lupa svg{
+        width: 35px;
+    }
+    .login-lupa-mobile{
+        
+        margin-top: auto;
+    }
+    .menu-mobile .page-width {
+        display: flex;
+        flex-direction: column;
     }
 }
 
