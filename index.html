@@ -8,6 +8,21 @@
     <title>Caffeine</title>
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+    <script>
+        $(function(){
+            $(".icone-menu").on("click",function(){
+                if($(".menu-mobile").hasClass("active")){
+                    $(".menu-mobile").removeClass("active");
+                }
+                else{
+                    $(".menu-mobile").addClass("active");
+                }
+            });
+        });
+    </script>
     
     <div class="container">
         <div class="pai-header-pagina1">
@@ -16,6 +31,13 @@
                     <div class="logo">
                         <h2>Caffeine</h2>
                     </div>
+                    <div class="icone-menu">
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="21" height="4.58222" rx="2.29111" fill="#E7D7BC"/>
+                            <rect y="8.40073" width="21" height="3.81852" rx="1.90926" fill="#E7D7BC"/>
+                            <rect y="16.0378" width="21" height="4.58222" rx="2.29111" fill="#E7D7BC"/>
+                        </svg>
+                    </div>        
                     <nav class="menu">
                         <ul>
                             <li><a class="active" href="" target="_blank">Home</a></li>
@@ -28,9 +50,10 @@
                         <div class="page-width">
                             <div class="header">  
                                 <div class="logo">
-                                    <h2>Caffeine</h2>
+                                    <h2>Caffeine</h2>   
                                 </div>
-                                <div class="icone-x">
+                             
+                                <div class="icone-menu">
                                     <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <rect x="3.48047" width="27.0676" height="4.92182" rx="2.46091" transform="rotate(45 3.48047 0)" fill="#1F160D"/>
                                         <rect x="0.000976562" y="19.1398" width="27.0676" height="4.92182" rx="2.46091" transform="rotate(-45 0.000976562 19.1398)" fill="#1F160D"/>
@@ -39,7 +62,7 @@
                             </div>
                             <nav class="menu">
                                 <ul>
-                                    <li><a class="active" href="" target="_blank">Home</a></li>
+                                    <li><a  href="" target="_blank">Home</a></li>
                                     <li><a href=""  target="_blank">Menu</a></li>
                                     <li><a href=""  target="_blank">About Us</a></li>
                                     <li><a href=""  target="_blank">Facilities</a></li>
