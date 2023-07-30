@@ -535,9 +535,11 @@ li a{
 
 /*LOGIN*/
 .pai-login{
-    background-color: #1a1107;
     display:flex;
     height: 100vh;
+}
+.login-page{
+    background-color: #1a1107;
 }
 .pai-login .img-login{
     width: 50%;
@@ -548,11 +550,15 @@ li a{
 .pai-login .login{
     width: 50%;
 }
+.login-page .page-width{
+    width: 100%;
+}
 .login{
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .login h1{
     font-family: 'Lora' , serif;
@@ -563,6 +569,10 @@ li a{
     background-color: #E7D7BC;
     padding: 30px 70px;
     border-radius: 5px;
+    
+}
+.agrupe-login{
+    max-width: 60%;
 }
 .info-login p{
     font-family: 'Inter' , sans-serif;
@@ -823,9 +833,7 @@ label{
         margin-top: 20px;
     }
 
-    .login-page{
-        background-color: #1a1107;
-    }
+
     .page-width{
         
     }
@@ -840,7 +848,28 @@ label{
         width: 100%;
         
     }
-}
+
+    .button-agrupe-login .button{
+        width: 100%;
+    }
+    .button.button-create{
+        margin-bottom: 6px;
+    }
+
+    .agrupe-login{
+        width: 100%;
+        max-width: 60%;
+        min-width: 450px;
+    }
+}   
+    @media (max-width:480px){
+        .agrupe-login{
+            width: 100%;
+            max-width: 90%;
+            min-width: 200px;
+        }
+
+    }
 
 
 
