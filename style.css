@@ -567,7 +567,7 @@ li a{
 }
 .info-login{
     background-color: #E7D7BC;
-    padding: 30px 70px;
+    padding: 30px 50px;
     border-radius: 5px;
     
 }
@@ -628,41 +628,7 @@ label{
     .logo{
         padding-left: 30px;
     }
-    .pai-pagina1{
-        flex-direction: column-reverse;
 
-    }
-    .page1-info{
-        width: 100%;
-    }
-    .page1-img{
-        width: 250px;
-    }
-    .page1-info .texto-maior h1{
-        font-size: 40px;
-        width: 300px;
-        
-    }
-
-    .caixinha-pag2{
-        flex-direction: column !important; 
-        text-align:left !important;
-    }
-    .img-pagina2{
-        width: 100%;
-    }
-    .img-pagina2 img{
-        transform: rotate(0);
-        max-width: 100%;
-        height: 350px;
-        border-radius: 5px;
-    }
-    .caixinha-pag2 .agrupe-info{
-        padding:0px;
-    }
-    .agrupe-info{
-        width: 100%;
-    }
     .agrupe-info .texto-maior h1{
         font-size: 45px;
         padding-top: 20px;
@@ -671,26 +637,7 @@ label{
         margin-top: 30px;
     }
 
-
-    .pai-pagina3 .page-width{
-        width: 100%;
-    }
-
-    .opcoes-pagina3{
-        flex-direction: column;
-        align-items: center;
-    }
-    .pai-pagina3 .texto-maior h1{
-        font-size: 45px;
-    }
-    .opcoes-cafe p{
-        padding: 0 25px;
-    }
-    .img-opcoes{
-        margin: 20px 0;
-        border-radius: 5px;
-        overflow: hidden;
-    }
+    
 
     .pai-pagina4{
         padding-bottom: 0;
@@ -698,12 +645,7 @@ label{
     .pai-pagina4 .page-width{
         width:100%;
     }
-    .pai-pagina4 .texto-maior h2{
-        margin: 0 60px;
-        font-size: 45px;
-        text-align: left;
-        padding-top: 100px;
-    }
+    
     .pai-feedback{
         margin-top: 140px;
     }
@@ -863,12 +805,73 @@ label{
     }
 }   
     @media (max-width:480px){
+        
+        .pai-pagina1{
+            flex-direction: column-reverse;
+    
+        }
+        .page1-info{
+            width: 100%;
+        }
+        .page1-img{
+            width: 250px;
+        }
+        .page1-info .texto-maior h1{
+            font-size: 40px;
+            width: 300px;
+            
+        }
         .agrupe-login{
             width: 100%;
             max-width: 90%;
             min-width: 200px;
         }
-
+        .caixinha-pag2{
+            flex-direction: column !important; 
+            text-align:left !important;
+        }
+        .img-pagina2{
+            width: 100%;
+        }
+        .img-pagina2 img{
+            transform: rotate(0);
+            max-width: 100%;
+            height: 350px;
+            border-radius: 5px;
+        }
+        .caixinha-pag2 .agrupe-info{
+            padding:0px;
+        }
+        .agrupe-info{
+            width: 100%;
+        }
+        .opcoes-pagina3{
+            flex-direction: column;
+            align-items: center;
+        }
+        .pai-pagina3 .texto-maior h1{
+            font-size: 45px;
+        }
+        .opcoes-cafe p{
+            padding: 0 25px;
+        }
+        .img-opcoes{
+            margin: 20px 0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .pai-pagina4 .texto-maior h2{
+            margin: 0 60px;
+            font-size: 45px;
+            text-align: left;
+            padding-top: 100px;
+        }
+        .caixinha-depoimento p{
+            font-size: 17px;
+        }
+        .info-login{
+            padding: 30px 18px;
+        }
     }
 
 
