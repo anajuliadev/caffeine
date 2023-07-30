@@ -54,6 +54,10 @@ p{
     color: #E7D7BC;
     font-size: 30px;
 }
+.menu-mobile , .icone-menu{
+    display: none;
+}
+
 .menu{
     width: 65%;
 }
@@ -499,9 +503,8 @@ li a{
 }
 #input-email{
     padding: 10px 15px;
-    width: 80%;
+    width: calc(100% - 40px);
     background-color: #E7D7BC;
-    max-width: 50%;
     border: none;
     border-radius: 5px;
 }
@@ -801,7 +804,42 @@ label{
         color: #1a1107;
         transition: all 0.3s;
     }
-   
+   .newslatter{
+        flex-direction: column;
+        align-items: center;
+   }
+   .newslatter .texto-maior{
+        margin-top: 30px;
+        width: 100%;
+   }
+    .newslatter .texto-maior h2{
+        font-size: 30px;
+    }
+    .agrupe-email{
+        width: 100%;
+    }
+    .caixinha-email{
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    .login-page{
+        background-color: #1a1107;
+    }
+    .page-width{
+        
+    }
+    .pai-login{
+        
+    }
+
+    .img-login {
+       display: none;
+    }
+    .pai-login .login{
+        width: 100%;
+        
+    }
 }
 
 
