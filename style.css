@@ -817,24 +817,26 @@ label{
         max-width: 60%;
         min-width: 450px;
     }
-}   
+}   @media(max-width:720px){
+    .pai-pagina1{
+        flex-direction: column-reverse;
+
+    }
+    .page1-info{
+        width: 100%;
+    }
+    .page1-img{
+        width: 250px;
+    }
+    .page1-info .texto-maior h1{
+        font-size: 40px;
+        width: 300px;
+        
+    }
+}
     @media (max-width:480px){
         
-        .pai-pagina1{
-            flex-direction: column-reverse;
-    
-        }
-        .page1-info{
-            width: 100%;
-        }
-        .page1-img{
-            width: 250px;
-        }
-        .page1-info .texto-maior h1{
-            font-size: 40px;
-            width: 300px;
-            
-        }
+        
         .agrupe-login{
             width: 100%;
             max-width: 90%;
