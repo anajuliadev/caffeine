@@ -157,6 +157,7 @@ li a{
     font-weight: 700;
     box-sizing: border-box;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .page1-buttom .buttom.buttom2{
